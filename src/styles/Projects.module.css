@@ -1,0 +1,33 @@
+.container {
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.img {
+  width: 40rem;
+  margin: 1rem auto;
+}
+
+.lead {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.list {
+  width: 42rem;
+  border-left: 5px solid #c405c7;
+  padding-left: 3rem;
+}
+
+.list li {
+  margin: 0.5rem 0;
+}
+
+.text {
+  width: 42rem;
+  border-left: 5px solid #c405c7;
+  padding-left: 2rem;
+}
