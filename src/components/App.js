@@ -16,7 +16,7 @@ function App() {
       element: <HomePage />,
       errorElement: <ErrorElement />,
       children: [
-        { path: "", element: <MainPage />, index: true },
+        { path: "/", element: <MainPage />, index: true },
         { path: "projects", element: <Projects /> },
         { path: "info", element: <About /> },
         { path: "contact", element: <Contact /> },
