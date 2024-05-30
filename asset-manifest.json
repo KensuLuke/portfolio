@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.baf48541.css",
+    "main.js": "/portfolio/static/js/main.7a53e0ab.js",
+    "static/media/Luke.jpg": "/portfolio/static/media/Luke.c877e9cef23bdd5615b4.jpg",
+    "static/media/Propa Class UI.png": "/portfolio/static/media/Propa Class UI.4f52984c89a1e7ab65a3.png",
+    "static/media/Exam Interface.jpeg": "/portfolio/static/media/Exam Interface.327d67e48dd7b700f959.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.baf48541.css.map": "/portfolio/static/css/main.baf48541.css.map",
+    "main.7a53e0ab.js.map": "/portfolio/static/js/main.7a53e0ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baf48541.css",
+    "static/js/main.7a53e0ab.js"
+  ]
+}
