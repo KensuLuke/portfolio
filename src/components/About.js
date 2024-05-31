@@ -72,8 +72,6 @@ export default function About() {
         </li>
       </ul>
 
-      {/* <h2 className={styles.lead}>Testimonials and References</h2> */}
-
       <h3 className={styles.sub}>References</h3>
       <p className={styles.text}>Available on request.</p>
 

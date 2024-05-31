@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   text-align: justify;
+  flex-grow: 1;
 }
 
 .img {
@@ -30,4 +31,35 @@
   width: 42rem;
   border-left: 5px solid #c405c7;
   padding-left: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 5rem;
+    width: 100%;
+    margin-left: 2.5rem;
+  }
+
+  .img {
+    width: 85%;
+    margin: 1rem 0;
+    margin-left: 1rem;
+  }
+
+  .lead {
+    font-size: 2.5rem;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .list {
+    width: 80%;
+    padding-left: 2rem;
+  }
+
+  .text {
+    width: 80%;
+    padding-left: 1rem;
+  }
 }

@@ -69,6 +69,38 @@ export default function MainPage() {
           </ul>
         </div>
       </div>
+      <ul className={styles["hidden-links"]}>
+        <li>
+          <button
+            className={styles["hidden-link"]}
+            onClick={() => {
+              goto("info");
+            }}
+          >
+            Info
+          </button>
+        </li>
+        <li>
+          <button
+            className={styles["hidden-link"]}
+            onClick={() => {
+              goto("projects");
+            }}
+          >
+            Projects
+          </button>
+        </li>
+        <li>
+          <button
+            className={styles["hidden-link"]}
+            onClick={() => {
+              goto("contact");
+            }}
+          >
+            Contact
+          </button>
+        </li>
+      </ul>
     </div>
   );
 }
