@@ -75,9 +75,9 @@ export default function Projects() {
       <img className={styles.img} alt="project" src={exam} />
       <h3 className={styles.sub}>App Overview</h3>
       <p className={styles.text}>
-        This is an app for taking a MCQ questions. The app gets the questions
-        from the database, renders it, grades the student's performance,
-        displays the result and submits it to the database for future reference.
+        This is an app for taking MCQ questions. The app gets the questions from
+        the database, renders it, grades the student's performance, displays the
+        result and submits it to the database for future reference.
       </p>
       <h3 className={styles.sub}>Key Features </h3>
       <ul className={styles.list}>
