@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-// import CV from "./CV";
+import CV from "./CV";
 import HomePage from "./HomePage";
 import MainPage from "./MainPage";
 import Projects from "./Projects";
@@ -10,6 +10,7 @@ import ErrorElement from "./ErrorElement";
 
 function App() {
   const router = createBrowserRouter([
+    { path: "/cv", element: <CV /> },
     {
       path: "/portfolio",
       element: <HomePage />,
